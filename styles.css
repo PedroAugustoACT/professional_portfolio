@@ -3,6 +3,30 @@
     padding: 0;
 }
 
+.campsBar{
+    width: 99%;
+    height: 35px;
+    background-color: white;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding: 10px;
+    position:fixed;
+}
+.buttonBar{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+.buttonBar:hover{
+    font-size: 21px;
+    background-color: rgb(231, 231, 231);
+}
 .mainScreen{
     background-color: black;
     background-image: linear-gradient(45deg, transparent, rgba(128, 128, 128, 0.4));
@@ -32,12 +56,13 @@
 }
 .txtProjects{
     font-family: 'Montserrat';
+    color: honeydew;
     text-decoration: underline;
     padding-top: 40px;
     text-align: center;
 }
 .contactsBox{
-    background-color: cadetblue;
+    background-color: rgb(61, 76, 77);
     width: 100%;
     height: 300px;
     text-align: center;
@@ -46,32 +71,40 @@
     justify-content: center;
     flex-direction: column;
 }
+.contactContainer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 .txtWorking
 {
     font-family: 'Zen Kaku Gothic Antique';
+    color: honeydew;
     font-size: 50px;
 }
 a{
     font-family: 'Montserrat';
     font-size: 20px;
-    color: black;
-    padding-left: 10px;
+    color: honeydew;
+    padding: 10px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 a:link{
-    color:black;
+    color:honeydew;
     text-decoration: none;
 }
 a:hover{
-    border-width: 1px; /* aqui, cada lado possui uma borda de largura diferente */
+    border-width: 2px; /* aqui, cada lado possui uma borda de largura diferente */
     border-radius: 10px;
     border-style:ridge; /* estilos de borda diferentes para cima-baixo e esquerda-direita */
-    border-color: #000; /* uma cor de borda para cada lado */
-    padding: 4px;
-    
+    border-color: honeydew; /* uma cor de borda para cada lado */
+    padding: 10px;
+    font-size: 22px;
 }
 .imgsWork{
     width: 20px;
@@ -85,6 +118,7 @@ a:hover{
 }
 footer{
     text-align: center;
+    color:honeydew ;
     font-family: 'Zen Kaku Gothic Antique';
-    background-color: cadetblue;
+    background-color: rgb(61, 76, 77);
 }
