@@ -15,3 +15,4 @@ function contactsBox()
 {
     contacts.scrollIntoView({behavior: "smooth"});
 }
+
